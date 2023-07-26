@@ -24,7 +24,7 @@ const Home = () => {
             <HomePricing/>
             <HomeCta/>
             <HomeBlogs/> */}
-            <HomeFooter/>
+            {/* <HomeFooter/> */}
         </>
     );
 };

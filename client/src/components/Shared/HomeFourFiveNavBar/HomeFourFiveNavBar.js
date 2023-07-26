@@ -56,31 +56,31 @@ const HomeFourFiveNavBar = () => {
                         <div className="header__menu header__menu4 pl-60">
                            <nav id="mobile-menu">
                               <ul>
-                                 <li><Link to="/">Home +</Link>
-                                    <ul className="submenu">
+                                 <li><Link to="#">Home </Link>
+                                    {/* <ul className="submenu">
                                        <li><Link to="/home">Home style 1</Link></li>
                                        <li><Link to="/homeTwo">Home style 2</Link></li>
                                        <li><Link to="/homeThree">Home style 3</Link></li>
                                        <li><Link to="/homeFour">Home style 4</Link></li>
                                        <li><Link to="/homeFive">Home style 5</Link></li>
-                                    </ul>
+                                    </ul> */}
                                  </li>
-                                 <li><Link to="/services">Department +</Link>
-                                    <ul className="submenu">
+                                 <li><Link to="#">Services </Link>
+                                    {/* <ul className="submenu">
                                        <li><Link to="/services">Services 01</Link></li>
                                        <li><Link to="/servicesTwo">Services 02</Link></li>
                                        <li><Link to="/servicesDetails">Services Details</Link></li>
-                                    </ul>
+                                    </ul> */}
                                  </li>
-                                 <li><Link to="/doctors">Doctors +</Link>
-                                    <ul className="submenu">
+                                 <li><Link to="#">Vision </Link>
+                                    {/* <ul className="submenu">
                                        <li><Link to="/doctors">Doctors 01</Link></li>
                                        <li><Link to="/doctorsTwo">Doctors 02</Link></li>
                                        <li><Link to="/doctorDetails">Doctors Details</Link></li>
-                                    </ul>
+                                    </ul> */}
                                  </li>
-                                 <li><Link to="/shop">Shop</Link>
-                                    <ul className="submenu">
+                                 <li><Link to="#">About Us</Link>
+                                    {/* <ul className="submenu">
                                        <li><Link to="/shop">Shop Page</Link></li>
                                        <li><Link to="/shopDetails">Shop Details</Link></li>
                                        <li><Link to="/shoppingCart">Shopping Cart</Link></li>
@@ -88,9 +88,9 @@ const HomeFourFiveNavBar = () => {
                                        <li><Link to="/wishList">Wishlist</Link></li>
                                        <li><Link to="/login">Login</Link></li>
                                        <li><Link to="/register">Register</Link></li>
-                                    </ul>
+                                    </ul> */}
                                  </li>
-                                 <li><Link to="/blogs">News +</Link>
+                                 {/* <li><Link to="/blogs">News +</Link>
                                     <ul className="submenu">
                                        <li><Link to="/blogs">Blog Right Sidebar</Link></li>
                                        <li><Link to="/blogLeftSideBar">Blog Left Sidebar</Link></li>
@@ -116,7 +116,7 @@ const HomeFourFiveNavBar = () => {
                                        <li><Link to="/contact">Contact</Link></li>
                                        <li><Link to="/notMatch">404 page</Link></li>
                                     </ul>
-                                 </li>
+                                 </li> */}
                                  <li><a href="#"><i className="fal fa-search"></i></a></li>
                               </ul>
                            </nav>
