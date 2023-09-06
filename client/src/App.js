@@ -33,13 +33,14 @@ import PortfolioThreeCol from './pages/PortfolioThreeCol/PortfolioThreeCol';
 // import Register from './pages/Register/Register';
 import ServicesDetails from './pages/Services/ServicesDetails/ServicesDetails';
 import ServicesOne from './pages/Services/ServicesOne/ServicesOne';
-import ServicesTwo from './pages/Services/ServicesTwo/ServicesTwo';
+// import ServicesTwo from './pages/Services/ServicesTwo/ServicesTwo';
 // import ShopDetails from './pages/ShopDetails/ShopDetails/ShopDetails';
 // import ShopPage from './pages/ShopPage/ShopPage/ShopPage';
 // import ShoppingCart from './pages/ShoppingCart/ShoppingCart';
 // import WishList from './pages/wishList/WishList';
 import './App.css';
 import NotFound from './pages/NotFound/NotFound';
+import BasicModal from './pages/Test/Test';
 
 
 function App() {
@@ -56,7 +57,7 @@ function App() {
             {/* <Route path="/homeFour" element={<HomeFour />} />
             <Route path="/homeFive" element={<HomeFive />} /> */}
             <Route path="/services" element={<ServicesOne />} />
-            <Route path="/servicesTwo" element={<ServicesTwo />} />
+            {/* <Route path="/servicesTwo" element={<ServicesTwo />} /> */}
             <Route path="/servicesDetails" element={<ServicesDetails />} />
             <Route path="/doctors" element={<DoctorsOne />} />
             <Route path="/doctorsTwo" element={<DoctorsTwo />} />
@@ -87,6 +88,8 @@ function App() {
             {/* <Route path="/portfolioSlider" element={<PortfolioSlider />} /> */}
             <Route path="/contact" element={<Contact />} />
             <Route path="/notMatch" element={<NotFound />} />
+            <Route path="/modal" element={<BasicModal />} />
+
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

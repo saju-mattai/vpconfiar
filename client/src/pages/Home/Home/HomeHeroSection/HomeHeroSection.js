@@ -59,7 +59,7 @@ const HomeHeroSection = () => {
 
                   <HomeHeroSingleSlide bg_className="1" />
 
-                  <HomeHeroSingleSlide bg_className="2" />
+                  {/* <HomeHeroSingleSlide bg_className="2" /> */}
 
                </Slider>
 

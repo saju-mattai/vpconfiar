@@ -16,12 +16,12 @@ const HomeHeader = () => {
             <div className="row d-flex align-items-center">
               <div className="col-xl-6 offset-xl-1 col-lg-6 offset-lg-1 col-md-7 offset-md-1">
                 <div className="header-info">
-                  <img
+                  {/* <img
                     src={imagePath}
                     width={"20%"}
                   //   style={{ paddingBottom: "5px" }}
                     alt="dddd"
-                  />
+                  /> */}
                   {/* <span><i className="fas fa-phone"></i> +1 800 833 9780</span>
                            <span><i className="fas fa-envelope"></i> info@example.com</span> */}
                 </div>
@@ -44,14 +44,14 @@ const HomeHeader = () => {
             <div className="row align-items-center">
               <div className="col-xl-3 col-lg-3 col-md-6 col-6 d-flex align-items-center">
                 {/* <div className="logo logo-circle pos-rel"> */}
-                  {/* <Link to="/">
-                    <img src="img/logo/logo.png" alt="" />
-                  </Link> */}
+                  <Link to="/">
+                    <img src="img/logo/VP-CONF.png" alt="" />
+                  </Link>
                 {/* </div> */}
               </div>
-              {/* <div className="col-xl-9 col-lg-9 col-md-6 col-6">
+              <div className="col-xl-9 col-lg-9 col-md-6 col-6">
                 <div className="header-right f-right">
-                  <div className="header-lang f-right pos-rel d-none d-lg-block">
+                  {/* <div className="header-lang f-right pos-rel d-none d-lg-block">
                     <div className="lang-icon">
                       <img src="img/icon/lang.png" alt="" />
                       <span>
@@ -72,8 +72,8 @@ const HomeHeader = () => {
                         <a href="#">AU</a>
                       </li>
                     </ul>
-                  </div>
-                  <div className="header-social-icons f-right d-none d-xl-block">
+                  </div> */}
+                  {/* <div className="header-social-icons f-right d-none d-xl-block">
                     <ul>
                       <li>
                         <a href="#">
@@ -101,14 +101,14 @@ const HomeHeader = () => {
                         </a>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="header__menu f-right">
                   <nav id="mobile-menu">
                     <ul>
                       <li>
                         <Link to="/">Home </Link>
-                        <ul className="submenu">
+                        {/* <ul className="submenu">
                           <li>
                             <Link to="/">Home style 1</Link>
                           </li>
@@ -124,11 +124,11 @@ const HomeHeader = () => {
                           <li>
                             <Link to="/homeFive">Home style 5</Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
                       <li>
-                        <Link to="#">Services</Link>
-                        <ul className="submenu">
+                        <Link to="/services">Services</Link>
+                        {/* <ul className="submenu">
                           <li>
                             <Link to="/services">Services 01</Link>
                           </li>
@@ -138,9 +138,9 @@ const HomeHeader = () => {
                           <li>
                             <Link to="/servicesDetails">Services Details</Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
-                      <li>
+                      {/* <li>
                         <Link to="#">Vision</Link>
                         <ul className="submenu">
                           <li>
@@ -153,8 +153,8 @@ const HomeHeader = () => {
                             <Link to="/doctorDetails">Doctors Details</Link>
                           </li>
                         </ul>
-                      </li>
-                      <li>
+                      </li> */}
+                      {/* <li>
                         <Link to="#">Careers</Link>
                         <ul className="submenu">
                           <li>
@@ -179,10 +179,10 @@ const HomeHeader = () => {
                             <Link to="/register">Register</Link>
                           </li>
                         </ul>
-                      </li>
+                      </li> */}
                       <li>
-                        <Link to="#">About Us</Link>
-                        <ul className="submenu">
+                        <Link to="/about">About Us</Link>
+                        {/* <ul className="submenu">
                           <li>
                             <Link to="/blogs">Blog Right Sidebar</Link>
                           </li>
@@ -225,11 +225,11 @@ const HomeHeader = () => {
                               Details Gallery
                             </Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
                       <li>
-                        <a href="#">Pages +</a>
-                        <ul className="submenu">
+                        <a href="/contact">Contact Us</a>
+                        {/* <ul className="submenu">
                           <li>
                             <Link to="/about">About</Link>
                           </li>
@@ -255,7 +255,7 @@ const HomeHeader = () => {
                           <li>
                             <Link to="/notMatch">404 page</Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
                     </ul>
                   </nav>
@@ -269,7 +269,7 @@ const HomeHeader = () => {
                     <i className="fas fa-bars"></i>{" "}
                   </button>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>

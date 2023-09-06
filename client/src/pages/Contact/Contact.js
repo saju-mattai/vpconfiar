@@ -5,16 +5,19 @@ import HomeHeader from '../Home/Home/HomeHeader/HomeHeader';
 import ContactArea from './ContactArea/ContactArea';
 import ContactFormArea from './ContactFormArea/ContactFormArea';
 import ContactMap from './ContactMap/ContactMap';
+import HomeFooter from '../Home/Home/HomeFooter/HomeFooter';
 
 const Contact = () => {
     return (
         <>
             <HomeHeader/>
-            <CommonPageHeader title="Contact Us" subtitle="Contact" />
-            <ContactArea/>
+            {/* <CommonPageHeader title="Contact Us" subtitle="Contact" /> */}
             <ContactFormArea/>
-            <ContactMap/>
-            <Footer/>
+            <ContactArea/>
+            {/* <ContactMap/> */}
+            {/* <Footer/> */}
+            <HomeFooter/>
+
         </>
     );
 };
