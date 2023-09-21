@@ -1,26 +1,26 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import ScrollTop from './components/ScrollTop';
-import AllContext from './context/AllContext';
-import AboutUs from './pages/AboutUs/AboutUs';
-import Appointment from './pages/Appointment/Appointment';
-import BlogDetails from './pages/BlogDetails/BlogDetails';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import ScrollTop from "./components/ScrollTop";
+import AllContext from "./context/AllContext";
+import AboutUs from "./pages/AboutUs/AboutUs";
+import Appointment from "./pages/Appointment/Appointment";
+import BlogDetails from "./pages/BlogDetails/BlogDetails";
 // import BlogLeftSideBar from './pages/BlogLeftSideBar/BlogLeftSideBar';
-import BlogNoSideBar from './pages/BlogNoSideBar/BlogNoSideBar';
-import Blogs from './pages/Blogs/Blogs';
+import BlogNoSideBar from "./pages/BlogNoSideBar/BlogNoSideBar";
+import Blogs from "./pages/Blogs/Blogs";
 // import BlogThreeColMasonry from './pages/BlogThreeColMasonry/BlogThreeColMasonry';
 // import BlogThreeColumn from './pages/BlogThreeColumn/BlogThreeColumn';
 // import BlogTwoColumn from './pages/BlogTwoColumn/BlogTwoColumn';
 // import BlogTwoColumnMasonry from './pages/BlogTwoColumnMasonry/BlogTwoColumnMasonry';
 // import CheckoutPage from './pages/CheckoutPage/CheckoutPage';
-import Contact from './pages/Contact/Contact';
+import Contact from "./pages/Contact/Contact";
 // import DetailsAudio from './pages/DetailsAudio/DetailsAudio';
-import DetailsGallery from './pages/DetailsGallery/DetailsGallery';
+import DetailsGallery from "./pages/DetailsGallery/DetailsGallery";
 // import DetailsLeftSideBar from './pages/DetailsLeftSideBar/DetailsLeftSideBar';
 // import DetailsVideo from './pages/DetailsVideo/DetailsVideo';
-import DoctorDetails from './pages/Doctors/DoctorDetails/DoctorDetails';
-import DoctorsOne from './pages/Doctors/DoctorsOne/DoctorsOne';
-import DoctorsTwo from './pages/Doctors/DoctorsTwo/DoctorsTwo';
-import Home from './pages/Home/Home/Home';
+import DoctorDetails from "./pages/Doctors/DoctorDetails/DoctorDetails";
+import DoctorsOne from "./pages/Doctors/DoctorsOne/DoctorsOne";
+import DoctorsTwo from "./pages/Doctors/DoctorsTwo/DoctorsTwo";
+import Home from "./pages/Home/Home/Home";
 // import HomeThree from './pages/HomeThree/HomeThree';
 // import HomeTwo from './pages/HomeTwo/HomeTwo';
 // import HomeFour from './pages/HomeFour/HomeFour';
@@ -28,26 +28,50 @@ import Home from './pages/Home/Home/Home';
 
 // import Login from './pages/Login/Login';
 // import PortfolioSlider from './pages/PortfolioSlider/PortfolioSlider';
-import PortfolioThreeCol from './pages/PortfolioThreeCol/PortfolioThreeCol';
+import PortfolioThreeCol from "./pages/PortfolioThreeCol/PortfolioThreeCol";
 // import PortfolioTwoColumn from './pages/PortfolioTwoColumn/PortfolioTwoColumn';
 // import Register from './pages/Register/Register';
-import ServicesDetails from './pages/Services/ServicesDetails/ServicesDetails';
-import ServicesOne from './pages/Services/ServicesOne/ServicesOne';
+import ServicesDetails from "./pages/Services/ServicesDetails/ServicesDetails";
+import ServicesOne from "./pages/Services/ServicesOne/ServicesOne";
 // import ServicesTwo from './pages/Services/ServicesTwo/ServicesTwo';
 // import ShopDetails from './pages/ShopDetails/ShopDetails/ShopDetails';
 // import ShopPage from './pages/ShopPage/ShopPage/ShopPage';
 // import ShoppingCart from './pages/ShoppingCart/ShoppingCart';
 // import WishList from './pages/wishList/WishList';
-import './App.css';
-import NotFound from './pages/NotFound/NotFound';
-import BasicModal from './pages/Test/Test';
+import "./App.css";
+import NotFound from "./pages/NotFound/NotFound";
+import BasicModal from "./pages/Test/Test";
+import whatsappIcon from './assets/whatsapp.png'
 
+//whatsapp message setup
+const phoneNumber = "9495137978"; // Replace with the recipient's phone number
+const message =
+  "Hi, Im interested in your products and would like to learn more"; // Replace with your desired message
+
+const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+  message
+)}`;
 
 function App() {
   return (
     <>
       <AllContext>
         <BrowserRouter>
+        <a
+       href={whatsappURL} target="_blank" rel="noopener noreferrer"
+        style={{
+          position: "fixed",
+          bottom: "2rem",
+          right: "1rem",
+          zIndex: 10000,
+          display: "flex",
+          cursor: "pointer",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <img  style={{height:"4rem" , width: "4rem"}} src={whatsappIcon}></img>
+      </a>
           <ScrollTop />
           <Routes>
             <Route path="/" element={<Home />} />
@@ -84,7 +108,10 @@ function App() {
             <Route path="/about" element={<AboutUs />} />
             <Route path="/appoinment" element={<Appointment />} />
             {/* <Route path="/portfolioTwoColumn" element={<PortfolioTwoColumn />} /> */}
-            <Route path="/portfolioThreeColumn" element={<PortfolioThreeCol />} />
+            <Route
+              path="/portfolioThreeColumn"
+              element={<PortfolioThreeCol />}
+            />
             {/* <Route path="/portfolioSlider" element={<PortfolioSlider />} /> */}
             <Route path="/contact" element={<Contact />} />
             <Route path="/notMatch" element={<NotFound />} />

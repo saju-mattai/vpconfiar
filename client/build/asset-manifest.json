@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.b2b5ae2c.css",
-    "main.js": "/static/js/main.cf093815.js",
+    "main.css": "/static/css/main.16344ed5.css",
+    "main.js": "/static/js/main.f33860ca.js",
     "static/js/787.186834d5.chunk.js": "/static/js/787.186834d5.chunk.js",
     "static/media/slider-bg-2.jpg": "/static/media/slider-bg-2.e25868c960e788c13e8e.jpg",
+    "static/media/slider-bg-1.jpg": "/static/media/slider-bg-1.d665ebe673672d754a30.jpg",
     "static/media/footer-map.png": "/static/media/footer-map.d132e4df765ec0ab0b28.png",
-    "static/media/slider-bg-1.jpg": "/static/media/slider-bg-1.76c50f4cad7f290eb590.jpg",
     "static/media/map.png": "/static/media/map.aec1e52a95e91f1038e2.png",
     "static/media/membership-bg.jpg": "/static/media/membership-bg.328b7fc5bf9cc8372b09.jpg",
     "static/media/testimonials-bg.jpg": "/static/media/testimonials-bg.b92a661f76e0600505d9.jpg",
@@ -15,23 +15,23 @@
     "static/media/appointment.jpg": "/static/media/appointment.ead10e695be9fa05055c.jpg",
     "static/media/news-letter-bg.jpg": "/static/media/news-letter-bg.6abd8613a5d90180d87e.jpg",
     "static/media/appointment-bg.jpg": "/static/media/appointment-bg.f7fe9677321650f84b9d.jpg",
+    "static/media/whatsapp.png": "/static/media/whatsapp.a04b2ed0618e6eabdd7e.png",
     "static/media/hire3.jpg": "/static/media/hire3.c49ea5e53d78a3336ba4.jpg",
     "static/media/hire4.jpg": "/static/media/hire4.c49ea5e53d78a3336ba4.jpg",
     "static/media/hire__thumb.jpg": "/static/media/hire__thumb.c49ea5e53d78a3336ba4.jpg",
     "static/media/appoinment__thumb.jpg": "/static/media/appoinment__thumb.9864075240ca8a8ae5fd.jpg",
     "static/media/calculate-bg.png": "/static/media/calculate-bg.58bc93a8116c34e3d824.png",
-    "static/media/close.png": "/static/media/close.aeec27d34d04f9b7e97f.png",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.b2b5ae2c.css.map": "/static/css/main.b2b5ae2c.css.map",
-    "main.cf093815.js.map": "/static/js/main.cf093815.js.map",
+    "main.16344ed5.css.map": "/static/css/main.16344ed5.css.map",
+    "main.f33860ca.js.map": "/static/js/main.f33860ca.js.map",
     "787.186834d5.chunk.js.map": "/static/js/787.186834d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2b5ae2c.css",
-    "static/js/main.cf093815.js"
+    "static/css/main.16344ed5.css",
+    "static/js/main.f33860ca.js"
   ]
 }

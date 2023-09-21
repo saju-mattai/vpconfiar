@@ -13,7 +13,7 @@ const Sidebar = ({ show, handleClose }) => {
    return (
       <>
 
-         <div >
+         <div style={{backgroundColor:"blue"}} >
             <Offcanvas show={show} onHide={handleClose} placement='end' className='side__bar'>
                <Offcanvas.Header closeButton>
                   {/* <Offcanvas.Title>Offcanvas</Offcanvas.Title> */}
